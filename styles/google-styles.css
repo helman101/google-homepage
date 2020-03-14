@@ -1,0 +1,194 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    background-color: white;
+    color: rgb(46, 46, 46);
+    font-family: arial,sans-serif;
+}
+
+#navbar_urigth {
+
+    position: relative;
+    
+}
+
+.left {
+
+    display: flex;
+    position: block;
+
+}
+
+#header {
+
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    font-size: 0.80rem;
+    width: 100vw;
+}
+
+li {
+
+    list-style: none;
+}
+
+.li_u {
+
+    margin: 10px;
+}
+
+.right {
+
+    display: flex;
+}
+
+#navbar_uright {
+
+    display: flex;
+    position: relative;
+    width: 30vw;
+    margin-top: 5px;
+}
+
+#navbar_uleft {
+
+    width: 120vw;
+}
+
+.app_logo {
+
+    width: 35px;
+    height: 35px;
+    opacity: 80%;
+}
+
+#button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285f4;
+    border-radius: 1px;
+    color: white;
+    padding: 10px;
+    width: 45px;
+    max-height: 12px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#flex {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#logo {
+
+    margin: 40px auto 25px auto;
+}
+
+.search_img {
+
+    max-height: 20px;
+    margin: auto 5px auto 5px;
+}
+
+#search_bar {
+
+    display: flex;
+    border: 1px solid rgba(182, 182, 182, 0.466);
+    border-radius: 100px;
+    padding: 5px;
+    width: 580px;
+    min-height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#center {
+
+    margin-top: 50px;
+}
+
+.search_text {
+
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 500px;
+    padding: 5px;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+
+#position1 {
+
+    opacity: 50%;
+}
+
+#search_buttons {
+
+    margin: 0em ;
+}
+.button {
+
+    background-color: rgb(238, 238, 238);
+    border: none;
+    min-width: 114px;
+    border-radius: 2px;
+    height: 36px;
+    margin: 5px;
+    font-size: 0.8rem;
+    line-height: 27px;
+    color: rgb(100, 100, 100);
+}
+
+#footer {
+
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100vw;
+    height: 20px;
+    color: rgb(95, 95, 95);
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 10px;
+
+}
+
+#nav_bl {
+
+    margin-left: 5px;
+    width: 83vw;
+    
+}
+
+.left2 {
+
+    display: flex;
+}
+
+.right2 {
+
+    display: flex;
+}
+
+.li_f {
+
+    margin: auto 10px auto 10px;
+}
+
